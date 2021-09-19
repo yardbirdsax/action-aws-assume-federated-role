@@ -15,6 +15,7 @@ runs:
     - name: Assume IAM Role
       shell: bash
       run: |
+        set +x
         export AWS_ROLE_ARN=${{ inputs.aws_iam_role_arn }}
         export AWS_WEB_IDENTITY_TOKEN_FILE=/tmp/awscreds
         export AWS_DEFAULT_REGION=${{ inputs.aws_default_region }}
