@@ -2,7 +2,7 @@
 
 This Action allows a workflow to assume an AWS IAM Role using OIDC based authentication.
 
-> **PLEASE NOTE**: This is as-of-yet (19th of September 2021) undocumented functionality, so this module should probably not be used in production environments as GitHub may change things before public release. See [this GitHub Roadmap item](https://github.com/github/roadmap/issues/249) for a current status of the feature.
+> **PLEASE NOTE**: This is as-of-yet (19th of September 2021) undocumented functionality, so this action should probably not be used in production environments as GitHub may change things before public release. See [this GitHub Roadmap item](https://github.com/github/roadmap/issues/249) for a current status of the feature.
 
 This can be used in concert with [this Terraform module](https://github.com/yardbirdsax/terraform-aws-github-action-federated-role), which can create a special role that can be assumed using this process.
 
